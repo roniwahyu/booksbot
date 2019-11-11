@@ -10,7 +10,7 @@ class BooksSpider(scrapy.Spider):
     #     'http://books.toscrape.com/',
     # ]
     start_urls = [
-        'https://www.bukalapak.com/products?utf8=%E2%9C%93&source=navbar&from=omnisearch&search_source=omnisearch_organic&from_keyword_history=false&search%5Bkeywords%5D=earphone+bass',
+        'https://www.bukalapak.com/products/s/earphone-bass',
     ]
 
     def parse(self, response):
